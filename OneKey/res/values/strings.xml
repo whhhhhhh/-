@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OneKey</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+	<string name="qiujiu">求救</string>
+	<string name="qiuzhu">求助</string>
+	<string name="tiwen">提问</string>
+	
+	<string name="shouye">首页</string>
+	<string name="xinxi">信息</string>
+	<string name="ditu">地图</string>
+	<string name="tongxunlu">通讯录</string>
+	<string name="wo">我</string>
+	
+	<string name="tishi1">即将发送求救信号！</string>
+	<string name="cancel">取消</string>
+	<string name="entermsg">输入消息</string>
+	<string name="send">发送</string>
+	<string name="username">用户名</string>
+	<string name="back">返回</string>
+	<string name="count">3</string>
+	<string name="bigtextsize">112sp</string>
+	<string name="midtextsize">24sp</string>
+	<string name="name">姓名</string>
+	<string name="sex">性别</string>
+	<string name="age">年龄</string>
+	<string name="address">地址</string>
+	<string name="state">状态</string>
+	<string name="dh">导航</string>
+	<string name="chat">发起聊天</string>
+	
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+        android:id="@+id/Button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Button3"
+        android:layout_alignBottom="@+id/Button3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="36dp"
+        android:background="@drawable/background_sl_special"
+        android:text="@string/qiuzhu"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/Button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Button1"
+        android:layout_marginRight="38dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/background_sl_special"
+        android:text="@string/tiwen"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size18" />
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/background_bg_special"
+        android:text="@string/qiujiu"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size18" />
+
+</RelativeLayout>

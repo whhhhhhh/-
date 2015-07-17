@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll"
+    android:gravity="center"
+    android:background="#4CD4B0"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:hint="用户名" />
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="200dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextbackground"
+        android:maxLength="10"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"
+        android:hint="密码" />
+      <Button android:id="@+id/submit"
+          android:gravity="center"
+          android:layout_width="200dp"
+          android:layout_height="wrap_content"
+          android:textColor="#7D1424"
+          android:background="#EDD834"
+          android:layout_margin="10dp"
+          android:text="登录"/>
+      <Button android:id="@+id/sign"
+          android:layout_width="200dp"
+          android:gravity="center"
+          android:layout_height="wrap_content"
+          android:textColor="#7D1424"
+          android:background="#FFFCE6"
+          android:layout_margin="10dp"
+          android:text="注册"/>
+</LinearLayout>
